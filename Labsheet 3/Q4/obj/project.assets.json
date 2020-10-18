@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MCGC2\\source\\repos\\TheFree-Man\\Object-Orientated-Programming\\Labsheet 3\\Q1\\Q1.csproj",
-      "projectName": "Q1",
-      "projectPath": "C:\\Users\\MCGC2\\source\\repos\\TheFree-Man\\Object-Orientated-Programming\\Labsheet 3\\Q1\\Q1.csproj",
+      "projectUniqueName": "C:\\Users\\MCGC2\\source\\repos\\TheFree-Man\\Object-Orientated-Programming\\Labsheet 3\\Q4\\Q4.csproj",
+      "projectName": "Q4",
+      "projectPath": "C:\\Users\\MCGC2\\source\\repos\\TheFree-Man\\Object-Orientated-Programming\\Labsheet 3\\Q4\\Q4.csproj",
       "packagesPath": "C:\\Users\\MCGC2\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MCGC2\\source\\repos\\TheFree-Man\\Object-Orientated-Programming\\Labsheet 3\\Q1\\obj\\",
+      "outputPath": "C:\\Users\\MCGC2\\source\\repos\\TheFree-Man\\Object-Orientated-Programming\\Labsheet 3\\Q4\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MCGC2\\AppData\\Roaming\\NuGet\\NuGet.Config",

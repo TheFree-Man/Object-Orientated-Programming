@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MCGC2\\source\\repos\\TheFree-Man\\Object-Orientated-Programming\\Labsheet 3\\Q3\\Q3.csproj": {}
+    "C:\\Users\\MCGC2\\source\\repos\\TheFree-Man\\Object-Orientated-Programming\\Labsheet 3\\Q5\\Q5.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MCGC2\\source\\repos\\TheFree-Man\\Object-Orientated-Programming\\Labsheet 3\\Q3\\Q3.csproj": {
+    "C:\\Users\\MCGC2\\source\\repos\\TheFree-Man\\Object-Orientated-Programming\\Labsheet 3\\Q5\\Q5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MCGC2\\source\\repos\\TheFree-Man\\Object-Orientated-Programming\\Labsheet 3\\Q3\\Q3.csproj",
-        "projectName": "Q3",
-        "projectPath": "C:\\Users\\MCGC2\\source\\repos\\TheFree-Man\\Object-Orientated-Programming\\Labsheet 3\\Q3\\Q3.csproj",
+        "projectUniqueName": "C:\\Users\\MCGC2\\source\\repos\\TheFree-Man\\Object-Orientated-Programming\\Labsheet 3\\Q5\\Q5.csproj",
+        "projectName": "Q5",
+        "projectPath": "C:\\Users\\MCGC2\\source\\repos\\TheFree-Man\\Object-Orientated-Programming\\Labsheet 3\\Q5\\Q5.csproj",
         "packagesPath": "C:\\Users\\MCGC2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MCGC2\\source\\repos\\TheFree-Man\\Object-Orientated-Programming\\Labsheet 3\\Q3\\obj\\",
+        "outputPath": "C:\\Users\\MCGC2\\source\\repos\\TheFree-Man\\Object-Orientated-Programming\\Labsheet 3\\Q5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MCGC2\\AppData\\Roaming\\NuGet\\NuGet.Config",
