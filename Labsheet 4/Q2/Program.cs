@@ -18,9 +18,16 @@ namespace Q1
             c2.CurrentSpeed = 0;
             c2.EngineSize = 1.2;
 
-            Console.WriteLine("The {0} {1}, engine size: {2}l, is currently travelling at {3} km/h", c1.Make, c1.Model, c1.EngineSize, c1.CurrentSpeed);
+            c1.DisplayCarInfo();
 
-            Console.WriteLine("\nThe {0} {1}, engine size: {2}l, is currently travelling at {3} km/h", c2.Make, c2.Model, c2.EngineSize, c2.CurrentSpeed);
+            Console.WriteLine(c2);
+
+            for (int i = 0; i < 10; i++)
+            {
+                c1.Accelerate();
+            }
+
+            Console.WriteLine(c1);
         }
     }
 }
