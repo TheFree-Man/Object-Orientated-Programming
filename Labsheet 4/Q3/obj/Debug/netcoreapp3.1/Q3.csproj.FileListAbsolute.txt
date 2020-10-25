@@ -1,0 +1,13 @@
+C:\Users\MCGC2\source\repos\TheFree-Man\Object-Orientated-Programming\Labsheet 4\Q3\obj\Debug\netcoreapp3.1\Q3.csprojAssemblyReference.cache
+C:\Users\MCGC2\source\repos\TheFree-Man\Object-Orientated-Programming\Labsheet 4\Q3\obj\Debug\netcoreapp3.1\Q3.AssemblyInfoInputs.cache
+C:\Users\MCGC2\source\repos\TheFree-Man\Object-Orientated-Programming\Labsheet 4\Q3\obj\Debug\netcoreapp3.1\Q3.AssemblyInfo.cs
+C:\Users\MCGC2\source\repos\TheFree-Man\Object-Orientated-Programming\Labsheet 4\Q3\obj\Debug\netcoreapp3.1\Q3.csproj.CoreCompileInputs.cache
+C:\Users\MCGC2\source\repos\TheFree-Man\Object-Orientated-Programming\Labsheet 4\Q3\bin\Debug\netcoreapp3.1\Q3.exe
+C:\Users\MCGC2\source\repos\TheFree-Man\Object-Orientated-Programming\Labsheet 4\Q3\bin\Debug\netcoreapp3.1\Q3.deps.json
+C:\Users\MCGC2\source\repos\TheFree-Man\Object-Orientated-Programming\Labsheet 4\Q3\bin\Debug\netcoreapp3.1\Q3.runtimeconfig.json
+C:\Users\MCGC2\source\repos\TheFree-Man\Object-Orientated-Programming\Labsheet 4\Q3\bin\Debug\netcoreapp3.1\Q3.runtimeconfig.dev.json
+C:\Users\MCGC2\source\repos\TheFree-Man\Object-Orientated-Programming\Labsheet 4\Q3\bin\Debug\netcoreapp3.1\Q3.dll
+C:\Users\MCGC2\source\repos\TheFree-Man\Object-Orientated-Programming\Labsheet 4\Q3\bin\Debug\netcoreapp3.1\Q3.pdb
+C:\Users\MCGC2\source\repos\TheFree-Man\Object-Orientated-Programming\Labsheet 4\Q3\obj\Debug\netcoreapp3.1\Q3.dll
+C:\Users\MCGC2\source\repos\TheFree-Man\Object-Orientated-Programming\Labsheet 4\Q3\obj\Debug\netcoreapp3.1\Q3.pdb
+C:\Users\MCGC2\source\repos\TheFree-Man\Object-Orientated-Programming\Labsheet 4\Q3\obj\Debug\netcoreapp3.1\Q3.genruntimeconfig.cache
