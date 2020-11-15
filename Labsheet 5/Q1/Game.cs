@@ -31,5 +31,41 @@ namespace Q1
         }
 
         public Game() : this("", 0) { }
+
+        public override string ToString()
+        {
+            return string.Format($"{Name} {Price:C} {ReleaseDate.ToShortDateString()}");
+        }
+
+        public abstract void UpdatePrice(decimal percentageIncrease);
+        //{
+        //    Price *= (1 + percentageIncrease);
+        //}
+    }
+
+    public class ComputerGame : Game
+    {
+        public string PEGI_Rateing { get; set; }
+
+        public ComputerGame(string name,decimal price, DateTime date, string pegi) : base(name, price, date)
+        {
+            PEGI_Rateing = pegi;
+        }
+
+        public override string ToString()
+        {
+            return string.Format($"{base.ToString()} PEGI {PEGI_Rateing}");
+        }
+
+        public decimal GetDiscountPrice()
+        {
+            return Price * .9m;
+        }
+
+        public override void UpdatePrice(decimal percentageIncrease)
+        {
+            Price *= (1 + percentageIncrease);
+            Console.WriteLine("Updating the price...");
+        }
     }
 }
