@@ -1,0 +1,4 @@
+C:\Users\MCGC2\source\repos\TheFree-Man\Object-Orientated-Programming\CA 1\Q1\obj\Debug\netcoreapp3.1\Q1.csprojAssemblyReference.cache
+C:\Users\MCGC2\source\repos\TheFree-Man\Object-Orientated-Programming\CA 1\Q1\obj\Debug\netcoreapp3.1\Q1.AssemblyInfoInputs.cache
+C:\Users\MCGC2\source\repos\TheFree-Man\Object-Orientated-Programming\CA 1\Q1\obj\Debug\netcoreapp3.1\Q1.AssemblyInfo.cs
+C:\Users\MCGC2\source\repos\TheFree-Man\Object-Orientated-Programming\CA 1\Q1\obj\Debug\netcoreapp3.1\Q1.csproj.CoreCompileInputs.cache
