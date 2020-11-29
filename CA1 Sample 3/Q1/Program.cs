@@ -30,6 +30,10 @@ namespace Q1
             //}
 
             Display(playlist);
+            playlist.Sort();
+            Display(playlist);
+            Shuffle(playlist);
+            Display(playlist);
 
             Console.ReadLine();
         }
@@ -41,6 +45,21 @@ namespace Q1
             foreach (Song song in playlist)
             {
                 Console.WriteLine($"{song.Artist, -20}{song.Title, -25}{song.Duration, -10}{song.MusicGenre, -10}");
+            }
+        }
+
+        public static void Shuffle(List<Song> playlist)
+        {
+            Random rng = new Random();
+            int numberOfSongs = playlist.Count;
+
+            while (numberOfSongs > 1)
+            {
+                numberOfSongs--;
+                int randomNumber = rng.Next(numberOfSongs + 1);
+                Song song = playlist[randomNumber];
+                playlist[randomNumber] = playlist[numberOfSongs];
+                playlist[numberOfSongs] = song;
             }
         }
     }
