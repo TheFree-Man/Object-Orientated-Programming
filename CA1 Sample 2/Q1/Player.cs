@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace Q1
 {
-    public class Player
+    public class Player : IComparable
     {
         public int ID { get; }
         public string PlayerName { get; set; }
         public int Score { get; private set; }
+        public static int HighScore { get; set; }
 
         public Player(int id, string playerName, int score)
         {
@@ -25,6 +26,26 @@ namespace Q1
             {
                 Score += valueToAdd;
             }
+
+            if (Score > HighScore)
+            {
+                HighScore = Score;
+            }
+        }
+
+        public override string ToString()
+        {
+            return $"{ID}\t{PlayerName}\t{Score}";
+
+        }
+
+        public int CompareTo(object obj)
+        {
+            Player objecThatIAmComparingTo = obj as Player;
+
+            int returnValue = this.Score.CompareTo(objecThatIAmComparingTo.Score);
+
+            return returnValue;
         }
     }
 }
