@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Button x:Name="btnRoll" Content="Roll" HorizontalAlignment="Left" Margin="362,38,0,0" VerticalAlignment="Top" Width="76" Click="btnRoll_Click"/>
+        <TextBlock x:Name="tblkResult" HorizontalAlignment="Left" Margin="375,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="72" FontWeight="Bold"/>
+
     </Grid>
 </Window>

@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Q3
+namespace Q4
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -25,30 +25,27 @@ namespace Q3
             InitializeComponent();
         }
 
-        private void btnRoll_Click(object sender, RoutedEventArgs e)
+        private void tbxInput_GotFocus(object sender, RoutedEventArgs e)
         {
-            //Update();
-            Update2();
+            tbxInput.Clear();
+            tbxInput.Background = Brushes.White;
         }
 
-        public void Update()
+        private void btnClick_Click(object sender, RoutedEventArgs e)
         {
-            Random rng = new Random();
-            int randomNumber = rng.Next(1, 7);
-            tblkResult.Text = randomNumber.ToString();
-        }
+            string input = tbxInput.Text;
 
-        public async void Update2()
-        {
-            Random rng = new Random();
-            int randomNumber;
-
-            for (int i = 0; i < 20; i++)
+            int number;
+            bool isNum = int.TryParse(input, out number);
+            if (isNum)
             {
-                randomNumber = rng.Next(1, 7);
-                tblkResult.Text = randomNumber.ToString();
-
-                await Task.Delay(50);
+                MessageBox.Show("Value entered is a valid number");
+                tbxInput.Background = Brushes.Red;
+            }
+            else
+            {
+                MessageBox.Show("Value entered is not a valid number");
+                tbxInput.Background = Brushes.Yellow;
             }
         }
     }
