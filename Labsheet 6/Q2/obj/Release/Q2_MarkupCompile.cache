@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-C:\Users\MCGC2\Source\Repos\TheFree-Man\Object-Orientated-Programming\Labsheet 6\Q2\obj\Debug\
+C:\Users\MCGC2\Source\Repos\TheFree-Man\Object-Orientated-Programming\Labsheet 6\Q2\obj\Release\
 Q2
 none
 false
-DEBUG;TRACE
+TRACE
 C:\Users\MCGC2\Source\Repos\TheFree-Man\Object-Orientated-Programming\Labsheet 6\Q2\App.xaml
 11151548125
 
@@ -16,5 +16,5 @@ C:\Users\MCGC2\Source\Repos\TheFree-Man\Object-Orientated-Programming\Labsheet 6
 13-1505183044
 MainWindow.xaml;
 
-False
+True
 
