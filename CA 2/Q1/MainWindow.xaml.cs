@@ -25,4 +25,38 @@ namespace Q1
             InitializeComponent();
         }
     }
+
+    public abstract class Employee
+    {
+        string FirstName { get; set; }
+        string LastName { get; set; }
+
+        public abstract decimal CalculateMonthlyPay()
+        {
+
+        }
+    }
+
+    public class FullTimeEmployee : Employee
+    {
+        decimal Salary { get; set; }
+
+        public override decimal CalculateMonthlyPay()
+        {
+            decimal pay = Salary / 12;
+            return pay;
+        }
+    }
+
+    public class PartTimeEmployee : Employee
+    {
+        decimal HourlyRate { get; set; }
+        double HoursWorked { get; set; }
+
+        public override decimal CalculateMonthlyPay()
+        {
+            decimal pay = HourlyRate * (decimal)HoursWorked;
+            return pay;
+        }
+    }
 }
