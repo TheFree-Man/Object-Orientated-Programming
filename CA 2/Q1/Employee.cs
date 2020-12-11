@@ -8,8 +8,8 @@ namespace Q1
 {
     public abstract class Employee
     {
-        string FirstName { get; set; }
-        string LastName { get; set; }
+        protected string FirstName { get; set; }
+        protected string LastName { get; set; }
 
         public Employee(string firstName, string lastName)
         {
@@ -34,6 +34,11 @@ namespace Q1
         {
             Salary = salary;
         }
+
+        public override string ToString()
+        {
+            return string.Format($"{LastName.ToUpper()}, {FirstName} - Full Time");
+        }
     }
 
     public class PartTimeEmployee : Employee
@@ -51,6 +56,11 @@ namespace Q1
         {
             decimal hourlyRate = HourlyRate;
             double hoursWorked = HoursWorked;
+        }
+
+        public override string ToString()
+        {
+            return string.Format($"{LastName.ToUpper()}, {FirstName} - Part Time");
         }
     }
 }
