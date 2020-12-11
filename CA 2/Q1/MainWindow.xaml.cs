@@ -20,43 +20,16 @@ namespace Q1
     /// </summary>
     public partial class MainWindow : Window
     {
+        ObservableCollections<string> employee = new ObservableCollections<string>();
+
         public MainWindow()
         {
             InitializeComponent();
-        }
-    }
 
-    public abstract class Employee
-    {
-        string FirstName { get; set; }
-        string LastName { get; set; }
-
-        public abstract decimal CalculateMonthlyPay()
-        {
-
-        }
-    }
-
-    public class FullTimeEmployee : Employee
-    {
-        decimal Salary { get; set; }
-
-        public override decimal CalculateMonthlyPay()
-        {
-            decimal pay = Salary / 12;
-            return pay;
-        }
-    }
-
-    public class PartTimeEmployee : Employee
-    {
-        decimal HourlyRate { get; set; }
-        double HoursWorked { get; set; }
-
-        public override decimal CalculateMonthlyPay()
-        {
-            decimal pay = HourlyRate * (decimal)HoursWorked;
-            return pay;
+            FullTimeEmployee FTE1 = new FullTimeEmployee("Joe", "Murphy", 30000);
+            FullTimeEmployee FTE2 = new FullTimeEmployee("Jess", "Walsh", 30000);
+            PartTimeEmployee PTE1 = new PartTimeEmployee("Jane", "Jones", 8, 40);
+            PartTimeEmployee PTE2 = new PartTimeEmployee("John", "Smith", 9, 38);
         }
     }
 }
