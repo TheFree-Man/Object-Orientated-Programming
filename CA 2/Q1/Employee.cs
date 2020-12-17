@@ -8,8 +8,8 @@ namespace Q1
 {
     public abstract class Employee
     {
-        protected string FirstName { get; set; }
-        protected string LastName { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
 
         public Employee(string firstName, string lastName)
         {
@@ -22,7 +22,7 @@ namespace Q1
 
     public class FullTimeEmployee : Employee
     {
-        decimal Salary { get; set; }
+        public decimal Salary { get; set; }
 
         public override decimal CalculateMonthlyPay()
         {
@@ -43,8 +43,8 @@ namespace Q1
 
     public class PartTimeEmployee : Employee
     {
-        decimal HourlyRate { get; set; }
-        double HoursWorked { get; set; }
+        public decimal HourlyRate { get; set; }
+        public double HoursWorked { get; set; }
 
         public override decimal CalculateMonthlyPay()
         {
