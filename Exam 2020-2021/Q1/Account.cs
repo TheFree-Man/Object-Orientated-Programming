@@ -11,13 +11,15 @@ namespace Q1
 {
     public abstract class Account
     {
+        public decimal AccountNumber { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public decimal Balance { get; set; }
         public string InterestDate { get; set; }
 
-        public Account(string firstName, string lastName, decimal balance, string interestDate)
+        public Account(decimal accountNumber, string firstName, string lastName, decimal balance, string interestDate)
         {
+            AccountNumber = accountNumber;
             FirstName = firstName;
             LastName = lastName;
             Balance = balance;
@@ -41,7 +43,7 @@ namespace Q1
     {
         public double InterestRateCA { get; set; }
 
-        public CurrentAccount(string firstName, string lastName, decimal balance, string interestDate, double interestRate) : base(firstName, lastName, balance, interestDate)
+        public CurrentAccount(decimal accountNumber, string firstName, string lastName, decimal balance, string interestDate, double interestRate) : base(accountNumber, firstName, lastName, balance, interestDate)
         {
             InterestRateCA = 0.03;
         }
@@ -51,13 +53,18 @@ namespace Q1
             double total = (double)Balance * InterestRateCA;
             return total;
         }
+
+        public override string ToString()
+        {
+            return string.Format($"{AccountNumber}, {LastName.ToUpper()}, {FirstName} - Current Account");     // Sets the formatting for how each employee will be displayed in the listbox
+        }
     }
 
     public class SavingsAccount : Account
     {
         public double InterestRateSA { get; set; }
 
-        public SavingsAccount(string firstName, string lastName, decimal balance, string interestDate) : base(firstName, lastName, balance, interestDate)
+        public SavingsAccount(decimal accountNumber, string firstName, string lastName, decimal balance, string interestDate) : base(accountNumber, firstName, lastName, balance, interestDate)
         {
             InterestRateSA = 0.06;
         }
@@ -66,6 +73,11 @@ namespace Q1
         {
             double total = (double)Balance * InterestRateSA;
             return total;
+        }
+
+        public override string ToString()
+        {
+            return string.Format($"{AccountNumber}, {LastName.ToUpper()}, {FirstName} - Savings Account");     // Sets the formatting for how each employee will be displayed in the listbox
         }
     }
 }

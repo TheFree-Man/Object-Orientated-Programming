@@ -32,10 +32,10 @@ namespace Q1
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            CurrentAccount CA1 = new CurrentAccount("Joe", "Bloggs", 3000, "12/11/20", 0.03);
-            CurrentAccount CA2 = new CurrentAccount("Mary", "Wilson", 6000, "9/04/20", 0.03);
-            SavingsAccount SA1 = new SavingsAccount("Paul", "Wilson", 4000, "10/04/20");
-            SavingsAccount SA2 = new SavingsAccount("Ester", "Johnson", 8000, "12/01/20");
+            CurrentAccount CA1 = new CurrentAccount(344454, "Joe", "Bloggs", 3000, "12/11/20", 0.03);
+            CurrentAccount CA2 = new CurrentAccount(278412, "Mary", "Wilson", 6000, "9/04/20", 0.03);
+            SavingsAccount SA1 = new SavingsAccount(812645, "Paul", "Wilson", 4000, "10/04/20");
+            SavingsAccount SA2 = new SavingsAccount(218083, "Ester", "Johnson", 8000, "12/01/20");
 
             account.Add(CA1);
             account.Add(CA2);
